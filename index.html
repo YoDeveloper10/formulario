@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Create Account</title>
+</head>
+<body>
+    <section class="bg">
+        <img src="images/mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    <main>
+        <h1>Create Account</h1>
+        <div class="social-media">
+            <a href=""><img src="images/facebook.png" alt="Facebook"></a>
+            <a href=""><img src="images/google.png" alt="Google"></a>
+            <a href=""><img src="images/linkedin.png" alt="Linkedin"></a>
+        </div>
+        <div class="or">
+            <span>OR</span>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="name">
+                    <span>Full name</span>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome completo...">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <small>Mensagem de erro</small>
+                </label>
+            </div>
+          <div class="form-control">
+            <label for="email">
+                <span>Email</span>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </label>
+          </div>
+          <div class="form-control">
+            <label for="password">
+                <span>Password</span>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </label>
+          </div>  
+          <div class="form-control">
+            <label for="password">
+                <span class="p-c">Password confirmation</span>
+                <input type="password" name="password-c" id="password-c" placeholder="Digite sua senha novamente...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </label>
+          </div>    
+            
+ 
+            <button type="submit">Sign Up!</button>
+        </form>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
